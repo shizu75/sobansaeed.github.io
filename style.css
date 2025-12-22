@@ -27,7 +27,7 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(2, 48, 32, 0.95);
+    background: rgba(2, 26, 48, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 1000;
@@ -45,7 +45,7 @@ html {
 }
 
 .nav-logo h2 {
-    color: #34d399;
+    color: #3B82F6;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -66,7 +66,7 @@ html {
 }
 
 .nav-link:hover {
-    color: #34d399;
+    color: #3B82F6;
 }
 
 .nav-link::after {
@@ -76,7 +76,7 @@ html {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #34d399;
+    background-color: #3B82F6;
     transition: width 0.3s ease;
 }
 
@@ -103,7 +103,7 @@ html {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #023020 0%, #064e3b 50%, #022c22 100%);
+    background: linear-gradient(135deg, #021A30 0%, #0B3A6E 50%, #041E3A 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -155,7 +155,7 @@ html {
 
 .highlight {
     color: #34d399;
-    text-shadow: 0 0 20px rgba(52, 211, 153, 0.4);
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
 }
 
 .hero-buttons {
@@ -177,14 +177,14 @@ html {
 }
 
 .btn-primary {
-    background: #34d399;
-    color: #023020;
+    background: #2563EB;
+    color: #021A30;
 }
 
 .btn-primary:hover {
-    background: #10b981;
+    background: #2563EB;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(52, 211, 153, 0.4);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
 }
 
 .btn-secondary {
@@ -221,7 +221,7 @@ html {
 .social-link:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-3px);
-    color: #34d399;
+    color: #3B82F6;
 }
 
 .hero-image {
@@ -258,7 +258,7 @@ html {
 .profile-image img:hover {
     transform: scale(1.05);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-    border-color: #34d399;
+    border-color: #3B82F6;
 }
 
 /* Fallback for when image is loading */
@@ -293,7 +293,7 @@ section {
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #023020;
+    color: #021A30;
     margin-bottom: 1rem;
 }
 
@@ -341,7 +341,7 @@ section {
 .stat-item h3 {
     font-size: 2rem;
     font-weight: 700;
-    color: #059669;
+    color: #1D4ED8;
     margin-bottom: 0.5rem;
 }
 
@@ -358,7 +358,7 @@ section {
 }
 
 .education-section h3 {
-    color: #023020;
+    color: #021A30;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
@@ -384,7 +384,7 @@ section {
 }
 
 .edu-header h4 {
-    color: #059669;
+    color: #1D4ED8;
     font-size: 1.1rem;
     font-weight: 600;
 }
@@ -448,7 +448,7 @@ section {
     width: 20px;
     height: 20px;
     right: -10px;
-    background: #059669;
+    background: #1D4ED8;
     border-radius: 50%;
     top: 20px;
     z-index: 1;
@@ -495,13 +495,13 @@ section {
 }
 
 .timeline-header h3 {
-    color: #023020;
+    color: #021A30;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .timeline-date {
-    color: #059669;
+    color: #1D4ED8;
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -527,7 +527,7 @@ section {
     content: '▸';
     position: absolute;
     left: 0;
-    color: #059669;
+    color: #1D4ED8;
     font-weight: bold;
 }
 
@@ -564,11 +564,11 @@ section {
 
 .project-header i {
     font-size: 2rem;
-    color: #059669;
+    color: #1D4ED8;
 }
 
 .project-header h3 {
-    color: #023020;
+    color: #021A30;
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -586,8 +586,8 @@ section {
 }
 
 .stat {
-    background: #d1fae5;
-    color: #059669;
+    background: #E0F2FE;
+    color: #1D4ED8;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -609,11 +609,11 @@ section {
     background: #f9fafb;
     border-radius: 15px;
     padding: 2rem;
-    border-left: 5px solid #059669;
+    border-left: 5px solid #1D4ED8;
 }
 
 .achievement-category h3 {
-    color: #023020;
+    color: #021A30;
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -623,7 +623,7 @@ section {
 }
 
 .achievement-category h3 i {
-    color: #059669;
+    color: #1D4ED8;
 }
 
 .achievement-list {
@@ -646,7 +646,7 @@ section {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #10b981;
+    color: #2563EB;
     font-weight: bold;
 }
 
@@ -680,12 +680,12 @@ section {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #059669;
+    color: #1D4ED8;
     width: 30px;
 }
 
 .contact-item h4 {
-    color: #023020;
+    color: #021A30;
     font-weight: 600;
     margin-bottom: 0.25rem;
 }
@@ -697,7 +697,7 @@ section {
 }
 
 .contact-item a:hover {
-    color: #059669;
+    color: #1D4ED8;
 }
 
 .contact-form {
@@ -725,7 +725,7 @@ section {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #059669;
+    border-color: #1D4ED8;
 }
 
 .form-group textarea {
@@ -735,7 +735,7 @@ section {
 
 /* Footer */
 .footer {
-    background: #023020;
+    background: #021A30;
     color: white;
     padding: 3rem 0;
 }
@@ -770,7 +770,7 @@ section {
 }
 
 .footer .social-link:hover {
-    background: #059669;
+    background: #1D4ED8;
     color: white;
 }
 
@@ -934,7 +934,7 @@ section {
     left: 0;
     width: 0%;
     height: 3px;
-    background: linear-gradient(90deg, #023020, #34d399);
+    background: linear-gradient(90deg, #021A30, #3B82F6);
     z-index: 9999;
     transition: width 0.3s ease;
 }
