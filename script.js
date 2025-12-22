@@ -234,7 +234,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.social-link, .footer-social a').forEach(link => {
         link.addEventListener('click', function() {
             const platform = this.href.includes('linkedin') ? 'LinkedIn' : 
-                           this.href.includes('medium') ? 'Medium' : 
                            this.href.includes('mailto') ? 'Email' : 'Other';
             console.log(`Social media click: ${platform}`);
         });
