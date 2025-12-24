@@ -350,6 +350,53 @@ section {
     font-weight: 500;
 }
 
+.stat-primary .stat-main {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2563eb; /* strong academic blue */
+  line-height: 1.35;
+}
+
+.stat-primary p {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+  letter-spacing: 0.4px;
+}
+
+.stat-primary {
+  border-left: 4px solid #2563eb;
+}
+
+.stat-secondary .stat-main {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.stat-secondary p {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.stat-anchor .stat-main {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.stat-anchor p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+@media (min-width: 900px) {
+  .stat-primary {
+    grid-column: span 2;
+  }
+}
+
 .education-section {
     background: white;
     padding: 2rem;
